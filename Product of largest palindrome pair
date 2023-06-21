@@ -24,8 +24,8 @@ func largestPalindromeproduct() (int, int, int) {
             for j := i; j >= 100; j-- {
                 product := i * j
                 if product < largestPalindrome {
-//no need to continue the inner loop since the product
-//will only become smaller as j decreases
+                //no need to continue the inner loop since the product
+                //will only become smaller as j decreases
                 break
             }
             if isPalindrome(product) && product > largestPalindrome {
