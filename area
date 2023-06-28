@@ -31,7 +31,7 @@ func(r Rectangle)Area()float64{
 
 //printArea calculates and prints the area of the given shape
 func PrintArea(s Shape){
-    fmt.Println("area:%0.2f\n",s.Area())
+    fmt.Println("area:",s.Area())
 }
 
 func main(){
